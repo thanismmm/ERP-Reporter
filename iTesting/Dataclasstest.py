@@ -1,7 +1,5 @@
 import pytest
 import pandas as pd
-import sys
-sys.path.append('ERP Reporter\DataClasses.py')
 from DataClasses import Financial, HR, Purchase, Sales_Data, FinancialAnalysis, HRAnalysis, PurchaseAnalysis, SalesDataAnalysis, DataProcessor, dataset_has_columns
 
 
